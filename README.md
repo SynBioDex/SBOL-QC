@@ -3,8 +3,9 @@ SBOL-QC
 
 SBOL-QC is a python package for automated sequence verification, screening, and failure analysis of genetic constructs for synthetic biology.   Methods in this package are used to verify an assembly clone against its target design and then generate a visual quality control (QC) report.  This package takes as its input multiple sequence reads and a target design in SBOL.  First the sequence reads are assembled into a contig from which a consensus call is made.  The consensus call is the best prediction for the actual sequence of the clone based on provided data.  Next this consensus sequence is aligned and verified against the target design sequence.  Finally the alignment is classified into annotated regions associated with a descriptive term for the mutation or assembly error type.  These QC annotations are saved as SBOL so that QC reports can be easily shared and visualized with software tools.
 
-<a href="gallery/all_parts"><img src="Fig4.png" height="160px"/></a>
+<a href="gallery/all_parts"><img src="Fig4.png" height="320px"/></a>
 
+The API methods in SBOL-QC calculate a variety of QC statistics that describe failure modes on a part by part basis.  These include alignment statistics, like percentage identity, error, ambiguity, and unsequenced.  They also include failure frequencies, the average size of mutations, and the average location of mutations, metrics which may be helpful for identifying regions that are genetically unstable or biologically interesting. 
 
 AUTHORS
 =======
@@ -36,12 +37,11 @@ $ python setup.py install
 
 CODE EXAMPLE
 ============
-This example script reads a genetic design from an SBOL file and renders it as a diagram using SBOL Visual symbols.  The example SBOL file is included in this package.
 
 ```
 ```
 EXAMPLE FIGURES
 ===============
-
-###Genetic Designs and Annotation
-<a href="gallery/all_parts"><img src="Fig8.png" height="160px"/></a>
+Alignment statistics for % Identity, % Error, % Ambiguous, and % Unsequenced are correlated with each genetic part indicated by the SBOL Visual glyph.
+###QC Report
+<a href="gallery/all_parts"><img src="Fig8.png" height="320px"/></a>
