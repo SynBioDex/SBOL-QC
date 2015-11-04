@@ -1,0 +1,13 @@
+setup.py
+dnaplotlib/__init__.py
+dnaplotlib/dnaplotlib.py
+qc/__init__.py
+qc/assembly.py
+sbol/__init__.py
+sbol/sbol.py
+sbol/sbol_test.py
+sbolqc.egg-info/PKG-INFO
+sbolqc.egg-info/SOURCES.txt
+sbolqc.egg-info/dependency_links.txt
+sbolqc.egg-info/not-zip-safe
+sbolqc.egg-info/top_level.txt

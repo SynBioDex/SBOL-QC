@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:so="http://purl.obolibrary.org/obo/" xmlns:s="http://sbols.org/v1#">
+	<s:DnaComponent rdf:about="urn:9a87ab21-e416-40e2-8f4e-1f5eceb6dde7">
+		<s:displayId>Hello SBOL</s:displayId>
+		<s:description>A new nucleotide sequence entered manually</s:description>
+		<s:dnaSequence>
+			<s:DnaSequence rdf:about="urn:0bc1432d-d5bf-4bdc-98cd-b22d6dfca5b8">
+				<s:nucleotides>ggcaggaagaccgggcgcatgagcgtattttgtttatctaatatgcctgaaagcgcataccgctatggagggggttaaagaggagaaaatgagcactaaaaagaaaccacttactcaagagcagttagaggacgcccgtcgcttaaaagccatttatgaaaaaaagaaaaatgaattaggcctttcccaggaatcagtcgccgacaagatggggatggggcagtcgggcgttggtgctctttttaatggcatcaatgcccttaatgcttataacgcggccctcttagccaaaattttgaaagttagcgttgaagaatttagcccttcgatcgcgcgagaaatctacgagatgtatgaagcagttagtatgcagccgtcgttacgaagtgagtatgagtaccctgttttttcacatgttcaggccgggatgttctcgcctgagttacgaacctttaccaaaggtgatgcagagcgatgggtaagcactaccaaaaaagcgagtgattcagccttctggttagaggttgaaggtaattccatgaccgccccaactggctccaagccaagctttcctgacggaatgcttattttggttgaccctgagcaggctgttgagccaggtgatttctgcatagcgcgattagggggtgatgagtttaccttcaagaaactgatcagggatagcggtcaggtgtttcttcaaccactaaacccacagtacccaatgatcccatgcaatgagagttgttccgttgtggggaaagttatcgctagtcagtggcctgaagagacgtttggctaataaccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc</s:nucleotides>
+			</s:DnaSequence>
+		</s:dnaSequence>
+		<s:annotation>
+			<s:SequenceAnnotation rdf:about="urn:39af8684-775c-452d-a298-cc0348557202">
+				<s:precedes rdf:resource="urn:06e823dc-f299-49b8-b929-8ad6e4d58858"/>
+				<s:bioStart>1</s:bioStart>
+				<s:bioEnd>76</s:bioEnd>
+				<s:subComponent>
+					<s:DnaComponent rdf:about="http://partsregistry.org/part/BBa_I765001">
+						<s:displayId>BBa_I765001</s:displayId>
+					</s:DnaComponent>
+				</s:subComponent>
+			</s:SequenceAnnotation>
+		</s:annotation>
+		<s:annotation>
+			<s:SequenceAnnotation rdf:about="urn:06e823dc-f299-49b8-b929-8ad6e4d58858">
+				<s:precedes rdf:resource="urn:b74e67d7-f03d-433d-9221-bad38ceb18b0"/>
+				<s:bioStart>77</s:bioStart>
+				<s:bioEnd>88</s:bioEnd>
+				<s:subComponent>
+					<s:DnaComponent rdf:about="http://partsregistry.org/part/BBa_B0034">
+						<s:displayId>BBa_B0034</s:displayId>
+					</s:DnaComponent>
+				</s:subComponent>
+			</s:SequenceAnnotation>
+		</s:annotation>
+		<s:annotation>
+			<s:SequenceAnnotation rdf:about="urn:b74e67d7-f03d-433d-9221-bad38ceb18b0">
+				<s:precedes rdf:resource="urn:a14f4393-6135-4b32-acdf-bf3b0dcf46f1"/>
+				<s:bioStart>89</s:bioStart>
+				<s:bioEnd>805</s:bioEnd>
+				<s:subComponent>
+					<s:DnaComponent rdf:about="http://partsregistry.org/part/BBa_I9200">
+						<s:displayId>BBa_I9200</s:displayId>
+					</s:DnaComponent>
+				</s:subComponent>
+			</s:SequenceAnnotation>
+		</s:annotation>
+		<s:annotation>
+			<s:SequenceAnnotation rdf:about="urn:a14f4393-6135-4b32-acdf-bf3b0dcf46f1">
+				<s:bioStart>806</s:bioStart>
+				<s:bioEnd>885</s:bioEnd>
+				<s:subComponent>
+					<s:DnaComponent rdf:about="http://partsregistry.org/part/BBa_B0010">
+						<s:displayId>BBa_B0010</s:displayId>
+					</s:DnaComponent>
+				</s:subComponent>
+			</s:SequenceAnnotation>
+		</s:annotation>
+	</s:DnaComponent>
+</rdf:RDF>
